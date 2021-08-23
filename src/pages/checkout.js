@@ -13,17 +13,17 @@ function Checkout() {
   const [session] = useSession();
 
   return (
-    <div className="bg-gray-100">
+    <div className=" bg-gray-100 min-h-screen">
       <Header />
       <main className="lg:flex max-w-screen-2xl mx-auto">
         {/* Left */}
         <div className="flex-grow m-5 shadow-sm">
           <Image
             src="https://links.papareact.com/ikj"
-            width={1020}
+            width={1500}
             height={250}
             objectFit="contain"
-            className=""
+            className="bg-[#BDE5F5] px-auto"
           />
           <div className="flex flex-col p-5 space-y-10 bg-white ">
             <h1 className="text-3xl border-b-1 pb-4">
