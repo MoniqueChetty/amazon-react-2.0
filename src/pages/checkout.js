@@ -17,7 +17,7 @@ function Checkout() {
       <Header />
       <main className="lg:flex max-w-screen-2xl mx-auto">
         {/* Left */}
-        <div className="flex-grow m-5 shadow-sm">
+        <div className="flex-grow m-5 mb-0 shadow-sm">
           <Image
             src="https://links.papareact.com/ikj"
             width={1500}
@@ -48,9 +48,9 @@ function Checkout() {
         </div>
 
         {/* Right */}
-        <div className="flex flex-col bg-white p-10 shadow-md mb-5">
+        <div className="min-h-screen">
           {items.length > 0 && (
-            <>
+            <div className="flex flex-col bg-white p-10 shadow-md h-full">
               <h2 className="whitespace-nowrap">
                 Subtotal ({items.length} items) :{" "}
                 <span className="font-bold">
@@ -71,7 +71,7 @@ function Checkout() {
               >
                 {!session ? "Sign in to Checkout" : "Proceed to Checkout"}
               </button>
-            </>
+            </div>
           )}
         </div>
       </main>
