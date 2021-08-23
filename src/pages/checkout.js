@@ -48,7 +48,7 @@ function Checkout() {
         </div>
 
         {/* Right */}
-        <div className="flex flex-col bg-white p-10 shadow-md">
+        <div className="flex flex-col bg-white p-10 shadow-md mb-5">
           {items.length > 0 && (
             <>
               <h2 className="whitespace-nowrap">
