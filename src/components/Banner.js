@@ -32,8 +32,8 @@ function Banner() {
         <div className="c">
           {/* <img src="https://links.papareact.com/7ma" loading="lazy" /> */}
           <img
-            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Toys_en_US_2x._CB431858162_.jpg"
             loading="lazy"
+            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Toys_en_US_2x._CB431858162_.jpg"
           />
         </div>
       </Carousel>
